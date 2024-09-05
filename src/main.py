@@ -2,12 +2,12 @@ import argparse
 from email_sender import EmailSender  
 
 def main():
-    parser = argparse.ArgumentParser(description='Enviar um email através da linha de comando.')
-    parser.add_argument('-u', '--user', required=True, help='Email do usuário')
-    parser.add_argument('-p', '--password', required=True, help='Senha do email do usuário')
-    parser.add_argument('-t', '--to', required=True, help='Email do destinatário')
-    parser.add_argument('-s', '--subject', required=True, help='Assunto do email')
-    parser.add_argument('-c', '--content', required=True, help='Conteúdo do email')
+    parser = argparse.ArgumentParser(description='1 line command email sender')
+    parser.add_argument('-u', '--user', required=True, help='user email')
+    parser.add_argument('-p', '--password', required=True, help='user password email')
+    parser.add_argument('-t', '--to', required=True, help='email to send')
+    parser.add_argument('-s', '--subject', required=True, help='Subject')
+    parser.add_argument('-c', '--content', required=True, help='Content')
 
     args = parser.parse_args()
 

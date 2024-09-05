@@ -52,3 +52,10 @@ class EmailSender:
 
         finally:
             server.quit()
+    
+    #def spam_email(self, receiver_email, subject, body, num):
+     #   i = 0
+      #  while(i < num):
+       #     EmailSender.send_email(self, receiver_email, subject, body)
+        #    i = i + 1
+         #it's just an idea for now, probably wont make it to final.   
